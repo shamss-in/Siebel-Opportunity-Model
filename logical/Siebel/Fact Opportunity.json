@@ -1,0 +1,1566 @@
+{
+  "logicalTable" : {
+    "name" : "Fact Opportunity",
+    "type" : "FACT",
+    "logicalColumns" : [ {
+      "name" : "DATASOURCE_NUM_ID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.DATASOURCE_NUM_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ETL_PROC_WID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.ETL_PROC_WID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "INTEGRATION_ID",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.INTEGRATION_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "MINI_WID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.MINI_WID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ROW_WID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.ROW_WID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "BUDGETED_FLG",
+      "dataType" : "CHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.BUDGETED_FLG" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CHAMPION_FLG",
+      "dataType" : "CHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.CHAMPION_FLG" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CLOSED_FLG",
+      "dataType" : "CHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.CLOSED_FLG" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "DOC_CLOSED_O_REVN",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.DOC_CLOSED_O_REVN" ]
+          }
+        } ]
+      },
+      "aggregation" : {
+        "rule" : "SUM"
+      }
+    }, {
+      "name" : "CLOSE_DT",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.CLOSE_DT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "COMMITTED_FLG",
+      "dataType" : "CHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.COMMITTED_FLG" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CONSUMER_OPTY_AMT",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.CONSUMER_OPTY_AMT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CONSUMER_OPTY_FLG",
+      "dataType" : "CHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.CONSUMER_OPTY_FLG" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "EXEC_PRIORITY_FLG",
+      "dataType" : "CHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.EXEC_PRIORITY_FLG" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "EXIST_CUST_FLG",
+      "dataType" : "CHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.EXIST_CUST_FLG" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "DOC_EXPECT_O_REVN",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.DOC_EXPECT_O_REVN" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "FCST_CLS_DT",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.FCST_CLS_DT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "LEAD_QLTY_ORDER_BY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.LEAD_QLTY_ORDER_BY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "LOST_FLG",
+      "dataType" : "CHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.LOST_FLG" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "MAX_DAYS_IN_STG",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.MAX_DAYS_IN_STG" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "MKT_SEG_LOAN_MAX",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.MKT_SEG_LOAN_MAX" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "NUM_CAMP_TOUCHES",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.NUM_CAMP_TOUCHES" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "OPEN_DT",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.OPEN_DT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "DOC_OPTY_COST",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.DOC_OPTY_COST" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "DOC_OPTY_O_REVN",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.DOC_OPTY_O_REVN" ]
+          }
+        } ]
+      },
+      "aggregation" : {
+        "rule" : "SUM"
+      }
+    }, {
+      "name" : "OPTY_REVN_ORDER_BY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.OPTY_REVN_ORDER_BY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "REVN_PROB",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.REVN_PROB" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "STG_START_DT",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.STG_START_DT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "TGTD_OPTY_FLG",
+      "dataType" : "CHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.TGTD_OPTY_FLG" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "EXCHANGE_DT",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.EXCHANGE_DT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ACCNT_CITY",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.ACCNT_CITY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ACCNT_COUNTRY",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.ACCNT_COUNTRY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ACCNT_LOC",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.ACCNT_LOC" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ACCNT_NAME",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.ACCNT_NAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ACCNT_STATE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.ACCNT_STATE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ACCNT_ST_ADDRESS",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.ACCNT_ST_ADDRESS" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ACCNT_ZIPCODE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.ACCNT_ZIPCODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "APPL_OWNER_TYPE_CODE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.APPL_OWNER_TYPE_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "APPROVAL_LEVEL",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.APPROVAL_LEVEL" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CHANNEL_TYPE_CODE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.CHANNEL_TYPE_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CONSUMER_OPTY_NUM",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.CONSUMER_OPTY_NUM" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CURR_SSTAGE_CODE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.CURR_SSTAGE_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "DEAL_HORIZON_CODE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.DEAL_HORIZON_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "DECISION_LVL_CODE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.DECISION_LVL_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "DESC_TEXT",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.DESC_TEXT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "LEAD_QUALITY_CODE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.LEAD_QUALITY_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "METHOD_CODE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.METHOD_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "OPTY_CLASS",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.OPTY_CLASS" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "OPTY_NAME",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.OPTY_NAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "W_OPTY_REVN_CAT_CODE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.W_OPTY_REVN_CAT_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "OPTY_STATUS_CODE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.OPTY_STATUS_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "OPTY_TYPE_CODE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.OPTY_TYPE_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PAR_INTEGRATION_ID",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.PAR_INTEGRATION_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PR_CON_ROLE_CODE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.PR_CON_ROLE_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PR_POSTN_OPTY_STAT",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.PR_POSTN_OPTY_STAT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PR_PRTNR_DEAL_STAT",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.PR_PRTNR_DEAL_STAT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "REASON_WL_CODE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.REASON_WL_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "REVENUE_CLASS_CODE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.REVENUE_CLASS_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "RISK_CODE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.RISK_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "SALES_METHOD",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.SALES_METHOD" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "STG_STATUS_CODE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.STG_STATUS_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "STRATEGIC_CODE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.STRATEGIC_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "VIS_PR_BU_ID",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.VIS_PR_BU_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "VIS_PR_POS_ID",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.VIS_PR_POS_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "VIS_PR_POSTN_DH_WID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.VIS_PR_POSTN_DH_WID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "WIN_PROB_MODE_CODE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.WIN_PROB_MODE_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "EFFECTIVE_FROM_DT",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.EFFECTIVE_FROM_DT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "EFFECTIVE_TO_DT",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.EFFECTIVE_TO_DT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "X_CUSTOM",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.X_CUSTOM" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "W_OPTY_STATUS_CATEGORY",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.W_OPTY_STATUS_CATEGORY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CREATED_BY_WID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.CREATED_BY_WID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CHANGED_BY_WID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.CHANGED_BY_WID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CREATED_ON_DT",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.CREATED_ON_DT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CHANGED_ON_DT",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.CHANGED_ON_DT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "AUX1_CHANGED_ON_DT",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.AUX1_CHANGED_ON_DT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "AUX2_CHANGED_ON_DT",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.AUX2_CHANGED_ON_DT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "AUX3_CHANGED_ON_DT",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.AUX3_CHANGED_ON_DT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "AUX4_CHANGED_ON_DT",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.AUX4_CHANGED_ON_DT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "SRC_EFF_FROM_DT",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.SRC_EFF_FROM_DT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "SRC_EFF_TO_DT",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.SRC_EFF_TO_DT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "DELETE_FLG",
+      "dataType" : "CHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.DELETE_FLG" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CURRENT_FLG",
+      "dataType" : "CHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.CURRENT_FLG" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "W_INSERT_DT",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.W_INSERT_DT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "W_UPDATE_DT",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.W_UPDATE_DT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "TENANT_ID",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.TENANT_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "FROM_LEAD_FLG",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.FROM_LEAD_FLG" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "OPTY_NUM",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.OPTY_NUM" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "BDGT_AVAIL_DT",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.BDGT_AVAIL_DT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CUSTOMER_WID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.CUSTOMER_WID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "GLOBAL1_EXCHANGE_RATE",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.GLOBAL1_EXCHANGE_RATE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "GLOBAL2_EXCHANGE_RATE",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.GLOBAL2_EXCHANGE_RATE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "GLOBAL3_EXCHANGE_RATE",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.GLOBAL3_EXCHANGE_RATE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "GLOBAL4_EXCHANGE_RATE",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.GLOBAL4_EXCHANGE_RATE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "GLOBAL5_EXCHANGE_RATE",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.GLOBAL5_EXCHANGE_RATE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "DOC_CURR_CODE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.DOC_CURR_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "OWNER_RES_FIRST_NAME",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.OWNER_RES_FIRST_NAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "OWNER_RES_LAST_NAME",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.OWNER_RES_LAST_NAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "OWNER_RES_MIDDLE_NAME",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.OWNER_RES_MIDDLE_NAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "SALES_ACCNT_WID",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.SALES_ACCNT_WID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "STRATEGY",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.STRATEGY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "BUS_VALUE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.BUS_VALUE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CMPT_STRGY",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.CMPT_STRGY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "COMPELLING_EVT",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.COMPELLING_EVT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "COMPETITION_DESC",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.COMPETITION_DESC" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "LINE_OF_BUSINESS_CODE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.LINE_OF_BUSINESS_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Opportunity Count",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.ROW_WID" ]
+          }
+        } ]
+      },
+      "aggregation" : {
+        "rule" : "COUNT"
+      }
+    }, {
+      "name" : "Previous Quarter Revenue",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "LOGICAL_COLUMNS",
+        "logicalExpression" : {
+          "expressionTemplate" : "AGO(%1 , %2  , 1)",
+          "expressionObjects" : [ "logicalColumn:Siebel.Fact Opportunity.DOC_OPTY_O_REVN", "logicalLevel:Siebel.Close Date Dimension.Quarter" ]
+        }
+      }
+    }, {
+      "name" : "Previous Year Revenue",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "LOGICAL_COLUMNS",
+        "logicalExpression" : {
+          "expressionTemplate" : "AGO(%1 ,%2   , 1)",
+          "expressionObjects" : [ "logicalColumn:Siebel.Fact Opportunity.DOC_OPTY_O_REVN", "logicalLevel:Siebel.Close Date Dimension.Year" ]
+        }
+      }
+    }, {
+      "name" : "Enterprise Flag",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "W OPTY D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.X_ENTERPRISE_FLG" ]
+          }
+        } ]
+      },
+      "aggregation" : {
+        "rule" : "NONE"
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "W OPTY D",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:MyDatabase.ODI_DDL.W OPTY D" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "dataFilters" : [ {
+      "accessor" : "role:SiebelOAC1",
+      "functionalGroup" : "Product",
+      "status" : "ENABLED",
+      "filter" : { }
+    } ],
+    "joins" : [ {
+      "rightTable" : "logicalTable:Siebel.Dim Contacts",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "drivingTable" : "logicalTable:Siebel.Fact Opportunity"
+    }, {
+      "rightTable" : "logicalTable:Siebel.Close Date Dimension",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "drivingTable" : "logicalTable:Siebel.Fact Opportunity"
+    } ]
+  }
+}

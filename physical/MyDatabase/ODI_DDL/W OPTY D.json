@@ -1,0 +1,26 @@
+{
+  "physicalTable" : {
+    "name" : "W OPTY D",
+    "sourceTable" : "physicalTable:MyDatabase.ODI_DDL.W_OPTY_D",
+    "overrideSourceCacheSetting" : false,
+    "joins" : [ {
+      "rightTable" : "physicalTable:MyDatabase.ODI_DDL.W OPTY CON F",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.ROW_WID",
+        "rightColumn" : "physicalColumn:MyDatabase.ODI_DDL.W OPTY CON F.OPTY_WID"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:MyDatabase.ADMIN.CUSTOM OPTY TIME DIM",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:MyDatabase.ODI_DDL.W OPTY D.CLOSE_DT",
+        "rightColumn" : "physicalColumn:MyDatabase.ADMIN.CUSTOM OPTY TIME DIM.FULL_DATE"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    } ]
+  }
+}

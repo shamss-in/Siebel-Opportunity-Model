@@ -1,0 +1,333 @@
+{
+  "presentationTable" : {
+    "name" : "Fact Opportunity",
+    "presentationColumns" : [ {
+      "name" : "DATASOURCE_NUM_ID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.DATASOURCE_NUM_ID"
+    }, {
+      "name" : "ETL_PROC_WID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.ETL_PROC_WID"
+    }, {
+      "name" : "INTEGRATION_ID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.INTEGRATION_ID"
+    }, {
+      "name" : "MINI_WID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.MINI_WID"
+    }, {
+      "name" : "ROW_WID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.ROW_WID"
+    }, {
+      "name" : "BUDGETED_FLG",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.BUDGETED_FLG"
+    }, {
+      "name" : "CHAMPION_FLG",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.CHAMPION_FLG"
+    }, {
+      "name" : "CLOSED_FLG",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.CLOSED_FLG"
+    }, {
+      "name" : "Closed Revenue",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.DOC_CLOSED_O_REVN"
+    }, {
+      "name" : "CLOSE_DT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.CLOSE_DT"
+    }, {
+      "name" : "COMMITTED_FLG",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.COMMITTED_FLG"
+    }, {
+      "name" : "CONSUMER_OPTY_AMT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.CONSUMER_OPTY_AMT"
+    }, {
+      "name" : "CONSUMER_OPTY_FLG",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.CONSUMER_OPTY_FLG"
+    }, {
+      "name" : "EXEC_PRIORITY_FLG",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.EXEC_PRIORITY_FLG"
+    }, {
+      "name" : "EXIST_CUST_FLG",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.EXIST_CUST_FLG"
+    }, {
+      "name" : "DOC_EXPECT_O_REVN",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.DOC_EXPECT_O_REVN"
+    }, {
+      "name" : "FCST_CLS_DT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.FCST_CLS_DT"
+    }, {
+      "name" : "LEAD_QLTY_ORDER_BY",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.LEAD_QLTY_ORDER_BY"
+    }, {
+      "name" : "LOST_FLG",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.LOST_FLG"
+    }, {
+      "name" : "MAX_DAYS_IN_STG",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.MAX_DAYS_IN_STG"
+    }, {
+      "name" : "MKT_SEG_LOAN_MAX",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.MKT_SEG_LOAN_MAX"
+    }, {
+      "name" : "NUM_CAMP_TOUCHES",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.NUM_CAMP_TOUCHES"
+    }, {
+      "name" : "OPEN_DT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.OPEN_DT"
+    }, {
+      "name" : "DOC_OPTY_COST",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.DOC_OPTY_COST"
+    }, {
+      "name" : "Total Revenue",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.DOC_OPTY_O_REVN"
+    }, {
+      "name" : "OPTY_REVN_ORDER_BY",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.OPTY_REVN_ORDER_BY"
+    }, {
+      "name" : "REVN_PROB",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.REVN_PROB"
+    }, {
+      "name" : "STG_START_DT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.STG_START_DT"
+    }, {
+      "name" : "TGTD_OPTY_FLG",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.TGTD_OPTY_FLG"
+    }, {
+      "name" : "EXCHANGE_DT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.EXCHANGE_DT"
+    }, {
+      "name" : "ACCNT_CITY",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.ACCNT_CITY"
+    }, {
+      "name" : "Country",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.ACCNT_COUNTRY"
+    }, {
+      "name" : "ACCNT_LOC",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.ACCNT_LOC"
+    }, {
+      "name" : "ACCNT_NAME",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.ACCNT_NAME"
+    }, {
+      "name" : "ACCNT_STATE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.ACCNT_STATE"
+    }, {
+      "name" : "ACCNT_ST_ADDRESS",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.ACCNT_ST_ADDRESS"
+    }, {
+      "name" : "ACCNT_ZIPCODE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.ACCNT_ZIPCODE"
+    }, {
+      "name" : "APPL_OWNER_TYPE_CODE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.APPL_OWNER_TYPE_CODE"
+    }, {
+      "name" : "APPROVAL_LEVEL",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.APPROVAL_LEVEL"
+    }, {
+      "name" : "CHANNEL_TYPE_CODE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.CHANNEL_TYPE_CODE"
+    }, {
+      "name" : "CONSUMER_OPTY_NUM",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.CONSUMER_OPTY_NUM"
+    }, {
+      "name" : "CURR_SSTAGE_CODE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.CURR_SSTAGE_CODE"
+    }, {
+      "name" : "DEAL_HORIZON_CODE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.DEAL_HORIZON_CODE"
+    }, {
+      "name" : "DECISION_LVL_CODE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.DECISION_LVL_CODE"
+    }, {
+      "name" : "DESC_TEXT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.DESC_TEXT"
+    }, {
+      "name" : "LEAD_QUALITY_CODE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.LEAD_QUALITY_CODE"
+    }, {
+      "name" : "METHOD_CODE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.METHOD_CODE"
+    }, {
+      "name" : "OPTY_CLASS",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.OPTY_CLASS"
+    }, {
+      "name" : "OPTY_NAME",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.OPTY_NAME"
+    }, {
+      "name" : "W_OPTY_REVN_CAT_CODE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.W_OPTY_REVN_CAT_CODE"
+    }, {
+      "name" : "OPTY_STATUS_CODE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.OPTY_STATUS_CODE"
+    }, {
+      "name" : "OPTY_TYPE_CODE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.OPTY_TYPE_CODE"
+    }, {
+      "name" : "PAR_INTEGRATION_ID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.PAR_INTEGRATION_ID"
+    }, {
+      "name" : "PR_CON_ROLE_CODE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.PR_CON_ROLE_CODE"
+    }, {
+      "name" : "PR_POSTN_OPTY_STAT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.PR_POSTN_OPTY_STAT"
+    }, {
+      "name" : "PR_PRTNR_DEAL_STAT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.PR_PRTNR_DEAL_STAT"
+    }, {
+      "name" : "REASON_WL_CODE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.REASON_WL_CODE"
+    }, {
+      "name" : "REVENUE_CLASS_CODE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.REVENUE_CLASS_CODE"
+    }, {
+      "name" : "RISK_CODE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.RISK_CODE"
+    }, {
+      "name" : "SALES_METHOD",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.SALES_METHOD"
+    }, {
+      "name" : "STG_STATUS_CODE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.STG_STATUS_CODE"
+    }, {
+      "name" : "STRATEGIC_CODE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.STRATEGIC_CODE"
+    }, {
+      "name" : "VIS_PR_BU_ID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.VIS_PR_BU_ID"
+    }, {
+      "name" : "VIS_PR_POS_ID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.VIS_PR_POS_ID"
+    }, {
+      "name" : "VIS_PR_POSTN_DH_WID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.VIS_PR_POSTN_DH_WID"
+    }, {
+      "name" : "WIN_PROB_MODE_CODE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.WIN_PROB_MODE_CODE"
+    }, {
+      "name" : "EFFECTIVE_FROM_DT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.EFFECTIVE_FROM_DT"
+    }, {
+      "name" : "EFFECTIVE_TO_DT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.EFFECTIVE_TO_DT"
+    }, {
+      "name" : "X_CUSTOM",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.X_CUSTOM"
+    }, {
+      "name" : "W_OPTY_STATUS_CATEGORY",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.W_OPTY_STATUS_CATEGORY"
+    }, {
+      "name" : "CREATED_BY_WID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.CREATED_BY_WID"
+    }, {
+      "name" : "CHANGED_BY_WID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.CHANGED_BY_WID"
+    }, {
+      "name" : "CREATED_ON_DT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.CREATED_ON_DT"
+    }, {
+      "name" : "CHANGED_ON_DT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.CHANGED_ON_DT"
+    }, {
+      "name" : "AUX1_CHANGED_ON_DT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.AUX1_CHANGED_ON_DT"
+    }, {
+      "name" : "AUX2_CHANGED_ON_DT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.AUX2_CHANGED_ON_DT"
+    }, {
+      "name" : "AUX3_CHANGED_ON_DT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.AUX3_CHANGED_ON_DT"
+    }, {
+      "name" : "AUX4_CHANGED_ON_DT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.AUX4_CHANGED_ON_DT"
+    }, {
+      "name" : "SRC_EFF_FROM_DT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.SRC_EFF_FROM_DT"
+    }, {
+      "name" : "SRC_EFF_TO_DT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.SRC_EFF_TO_DT"
+    }, {
+      "name" : "DELETE_FLG",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.DELETE_FLG"
+    }, {
+      "name" : "CURRENT_FLG",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.CURRENT_FLG"
+    }, {
+      "name" : "W_INSERT_DT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.W_INSERT_DT"
+    }, {
+      "name" : "W_UPDATE_DT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.W_UPDATE_DT"
+    }, {
+      "name" : "TENANT_ID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.TENANT_ID"
+    }, {
+      "name" : "FROM_LEAD_FLG",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.FROM_LEAD_FLG"
+    }, {
+      "name" : "OPTY_NUM",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.OPTY_NUM"
+    }, {
+      "name" : "BDGT_AVAIL_DT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.BDGT_AVAIL_DT"
+    }, {
+      "name" : "CUSTOMER_WID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.CUSTOMER_WID"
+    }, {
+      "name" : "GLOBAL1_EXCHANGE_RATE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.GLOBAL1_EXCHANGE_RATE"
+    }, {
+      "name" : "GLOBAL2_EXCHANGE_RATE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.GLOBAL2_EXCHANGE_RATE"
+    }, {
+      "name" : "GLOBAL3_EXCHANGE_RATE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.GLOBAL3_EXCHANGE_RATE"
+    }, {
+      "name" : "GLOBAL4_EXCHANGE_RATE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.GLOBAL4_EXCHANGE_RATE"
+    }, {
+      "name" : "GLOBAL5_EXCHANGE_RATE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.GLOBAL5_EXCHANGE_RATE"
+    }, {
+      "name" : "DOC_CURR_CODE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.DOC_CURR_CODE"
+    }, {
+      "name" : "OWNER_RES_FIRST_NAME",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.OWNER_RES_FIRST_NAME"
+    }, {
+      "name" : "OWNER_RES_LAST_NAME",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.OWNER_RES_LAST_NAME"
+    }, {
+      "name" : "OWNER_RES_MIDDLE_NAME",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.OWNER_RES_MIDDLE_NAME"
+    }, {
+      "name" : "SALES_ACCNT_WID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.SALES_ACCNT_WID"
+    }, {
+      "name" : "STRATEGY",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.STRATEGY"
+    }, {
+      "name" : "BUS_VALUE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.BUS_VALUE"
+    }, {
+      "name" : "CMPT_STRGY",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.CMPT_STRGY"
+    }, {
+      "name" : "COMPELLING_EVT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.COMPELLING_EVT"
+    }, {
+      "name" : "COMPETITION_DESC",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.COMPETITION_DESC"
+    }, {
+      "name" : "LINE_OF_BUSINESS_CODE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.LINE_OF_BUSINESS_CODE"
+    }, {
+      "name" : "Opportunity Count",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.Opportunity Count"
+    }, {
+      "name" : "Previous Quarter Revenue",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.Previous Quarter Revenue"
+    }, {
+      "name" : "Previous Year Revenue",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.Previous Year Revenue"
+    }, {
+      "name" : "Enterprise Flag",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Fact Opportunity.Enterprise Flag"
+    } ]
+  }
+}

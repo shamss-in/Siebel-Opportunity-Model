@@ -1,0 +1,981 @@
+{
+  "physicalTable" : {
+    "name" : "W_OPTY_CON_F",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "CONTACT_WID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CON_ROLE_WID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "OPTY_ATTR_WID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "OPTY_OWNER_ORG_WID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "OPTY_VIS_ORG_WID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "OPTY_WID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "ROW_WID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "PR_OWNER_BU_WID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "BUYER_COACH_FLG",
+      "dataType" : "CHAR",
+      "length" : 1,
+      "nullable" : true
+    }, {
+      "name" : "ECONOMIC_BUYER_FLG",
+      "dataType" : "CHAR",
+      "length" : 1,
+      "nullable" : true
+    }, {
+      "name" : "VIS_PR_POS_ID",
+      "dataType" : "VARCHAR",
+      "length" : 80,
+      "nullable" : true
+    }, {
+      "name" : "VIS_PR_POSTN_DH_WID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "PR_POSTN_DH_SCD1_WID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CREATED_BY_WID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CHANGED_BY_WID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CREATED_ON_DT",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "CHANGED_ON_DT",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "AUX1_CHANGED_ON_DT",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "AUX2_CHANGED_ON_DT",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "AUX3_CHANGED_ON_DT",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "AUX4_CHANGED_ON_DT",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "DELETE_FLG",
+      "dataType" : "CHAR",
+      "length" : 1,
+      "nullable" : true
+    }, {
+      "name" : "W_INSERT_DT",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "W_UPDATE_DT",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "DATASOURCE_NUM_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "ETL_PROC_WID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "INTEGRATION_ID",
+      "dataType" : "VARCHAR",
+      "length" : 80,
+      "nullable" : false
+    }, {
+      "name" : "TENANT_ID",
+      "dataType" : "VARCHAR",
+      "length" : 80,
+      "nullable" : true
+    }, {
+      "name" : "X_CUSTOM",
+      "dataType" : "VARCHAR",
+      "length" : 10,
+      "nullable" : true
+    }, {
+      "name" : "AFFINITY_LEVEL_CODE",
+      "dataType" : "VARCHAR",
+      "length" : 80,
+      "nullable" : true
+    }, {
+      "name" : "INFLUENCE_LEVEL_CODE",
+      "dataType" : "VARCHAR",
+      "length" : 80,
+      "nullable" : true
+    }, {
+      "name" : "PRIMARY_CONTACT_FLG",
+      "dataType" : "CHAR",
+      "length" : 1,
+      "nullable" : true
+    }, {
+      "name" : "CONTACTED_FLG",
+      "dataType" : "CHAR",
+      "length" : 1,
+      "nullable" : true
+    }, {
+      "name" : "FUNCTION_CODE",
+      "dataType" : "VARCHAR",
+      "length" : 80,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_001",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_001",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_001",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_002",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_002",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_002",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_003",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_003",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_003",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_004",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_004",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_004",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_005",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_005",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_005",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_006",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_006",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_006",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_007",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_007",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_007",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_008",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_008",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_008",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_009",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_009",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_009",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_010",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_010",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_010",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_011",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_011",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_011",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_012",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_012",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_012",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_013",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_013",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_013",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_014",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_014",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_014",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_015",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_015",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_015",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_016",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_016",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_016",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_017",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_017",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_017",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_018",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_018",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_018",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_019",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_019",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_019",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_020",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_020",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_020",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_021",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_021",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_022",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_022",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_023",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_023",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_024",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_024",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_025",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_025",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_026",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_026",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_027",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_027",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_028",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_028",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_029",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_029",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_030",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_030",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_031",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_031",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_032",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_032",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_033",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_033",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_034",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_034",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_035",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_035",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_036",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_036",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_037",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_037",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_038",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_038",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_039",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_039",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_040",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_040",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_041",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_042",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_043",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_044",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_045",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_046",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_047",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_048",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_049",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_050",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_051",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_052",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_053",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_054",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_055",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_056",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_057",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_058",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_059",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_060",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_061",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_062",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_063",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_064",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_065",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_066",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_067",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_068",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_069",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_070",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_071",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_072",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_073",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_074",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_075",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_076",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_077",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_078",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_079",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_080",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_081",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_082",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_083",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_084",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_085",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_086",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_087",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_088",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_089",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_090",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_091",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_092",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_093",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_094",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_095",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_096",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_097",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_098",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_099",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_100",
+      "dataType" : "VARCHAR",
+      "length" : 1500,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

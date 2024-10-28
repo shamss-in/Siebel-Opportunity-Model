@@ -1,0 +1,588 @@
+{
+  "presentationTable" : {
+    "name" : "Dim Contacts",
+    "presentationColumns" : [ {
+      "name" : "CONTACT_WID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.CONTACT_WID"
+    }, {
+      "name" : "CON_ROLE_WID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.CON_ROLE_WID"
+    }, {
+      "name" : "OPTY_ATTR_WID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTY_ATTR_WID"
+    }, {
+      "name" : "OPTY_OWNER_ORG_WID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTY_OWNER_ORG_WID"
+    }, {
+      "name" : "OPTY_VIS_ORG_WID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTY_VIS_ORG_WID"
+    }, {
+      "name" : "OPTY_WID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTY_WID"
+    }, {
+      "name" : "ROW_WID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.ROW_WID"
+    }, {
+      "name" : "PR_OWNER_BU_WID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.PR_OWNER_BU_WID"
+    }, {
+      "name" : "BUYER_COACH_FLG",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.BUYER_COACH_FLG"
+    }, {
+      "name" : "ECONOMIC_BUYER_FLG",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.ECONOMIC_BUYER_FLG"
+    }, {
+      "name" : "VIS_PR_POS_ID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.VIS_PR_POS_ID"
+    }, {
+      "name" : "VIS_PR_POSTN_DH_WID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.VIS_PR_POSTN_DH_WID"
+    }, {
+      "name" : "PR_POSTN_DH_SCD1_WID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.PR_POSTN_DH_SCD1_WID"
+    }, {
+      "name" : "CREATED_BY_WID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.CREATED_BY_WID"
+    }, {
+      "name" : "CHANGED_BY_WID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.CHANGED_BY_WID"
+    }, {
+      "name" : "CREATED_ON_DT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.CREATED_ON_DT"
+    }, {
+      "name" : "CHANGED_ON_DT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.CHANGED_ON_DT"
+    }, {
+      "name" : "AUX1_CHANGED_ON_DT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.AUX1_CHANGED_ON_DT"
+    }, {
+      "name" : "AUX2_CHANGED_ON_DT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.AUX2_CHANGED_ON_DT"
+    }, {
+      "name" : "AUX3_CHANGED_ON_DT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.AUX3_CHANGED_ON_DT"
+    }, {
+      "name" : "AUX4_CHANGED_ON_DT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.AUX4_CHANGED_ON_DT"
+    }, {
+      "name" : "DELETE_FLG",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.DELETE_FLG"
+    }, {
+      "name" : "W_INSERT_DT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.W_INSERT_DT"
+    }, {
+      "name" : "W_UPDATE_DT",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.W_UPDATE_DT"
+    }, {
+      "name" : "DATASOURCE_NUM_ID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.DATASOURCE_NUM_ID"
+    }, {
+      "name" : "ETL_PROC_WID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.ETL_PROC_WID"
+    }, {
+      "name" : "INTEGRATION_ID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.INTEGRATION_ID"
+    }, {
+      "name" : "TENANT_ID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.TENANT_ID"
+    }, {
+      "name" : "X_CUSTOM",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.X_CUSTOM"
+    }, {
+      "name" : "AFFINITY_LEVEL_CODE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.AFFINITY_LEVEL_CODE"
+    }, {
+      "name" : "INFLUENCE_LEVEL_CODE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.INFLUENCE_LEVEL_CODE"
+    }, {
+      "name" : "PRIMARY_CONTACT_FLG",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.PRIMARY_CONTACT_FLG"
+    }, {
+      "name" : "CONTACTED_FLG",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.CONTACTED_FLG"
+    }, {
+      "name" : "FUNCTION_CODE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.FUNCTION_CODE"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_001",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_001"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_001",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_001"
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_001",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_DATE_001"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_002",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_002"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_002",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_002"
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_002",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_DATE_002"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_003",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_003"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_003",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_003"
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_003",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_DATE_003"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_004",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_004"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_004",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_004"
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_004",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_DATE_004"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_005",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_005"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_005",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_005"
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_005",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_DATE_005"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_006",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_006"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_006",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_006"
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_006",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_DATE_006"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_007",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_007"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_007",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_007"
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_007",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_DATE_007"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_008",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_008"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_008",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_008"
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_008",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_DATE_008"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_009",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_009"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_009",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_009"
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_009",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_DATE_009"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_010",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_010"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_010",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_010"
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_010",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_DATE_010"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_011",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_011"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_011",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_011"
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_011",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_DATE_011"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_012",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_012"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_012",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_012"
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_012",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_DATE_012"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_013",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_013"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_013",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_013"
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_013",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_DATE_013"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_014",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_014"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_014",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_014"
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_014",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_DATE_014"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_015",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_015"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_015",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_015"
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_015",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_DATE_015"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_016",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_016"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_016",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_016"
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_016",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_DATE_016"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_017",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_017"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_017",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_017"
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_017",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_DATE_017"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_018",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_018"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_018",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_018"
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_018",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_DATE_018"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_019",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_019"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_019",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_019"
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_019",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_DATE_019"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_020",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_020"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_020",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_020"
+    }, {
+      "name" : "OPTYCON_ATTR_DATE_020",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_DATE_020"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_021",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_021"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_021",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_021"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_022",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_022"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_022",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_022"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_023",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_023"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_023",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_023"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_024",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_024"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_024",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_024"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_025",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_025"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_025",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_025"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_026",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_026"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_026",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_026"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_027",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_027"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_027",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_027"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_028",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_028"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_028",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_028"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_029",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_029"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_029",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_029"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_030",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_030"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_030",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_030"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_031",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_031"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_031",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_031"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_032",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_032"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_032",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_032"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_033",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_033"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_033",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_033"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_034",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_034"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_034",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_034"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_035",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_035"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_035",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_035"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_036",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_036"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_036",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_036"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_037",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_037"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_037",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_037"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_038",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_038"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_038",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_038"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_039",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_039"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_039",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_039"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_040",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_040"
+    }, {
+      "name" : "OPTYCON_ATTR_NUM_040",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_NUM_040"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_041",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_041"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_042",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_042"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_043",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_043"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_044",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_044"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_045",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_045"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_046",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_046"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_047",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_047"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_048",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_048"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_049",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_049"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_050",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_050"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_051",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_051"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_052",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_052"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_053",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_053"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_054",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_054"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_055",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_055"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_056",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_056"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_057",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_057"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_058",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_058"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_059",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_059"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_060",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_060"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_061",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_061"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_062",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_062"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_063",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_063"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_064",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_064"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_065",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_065"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_066",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_066"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_067",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_067"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_068",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_068"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_069",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_069"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_070",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_070"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_071",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_071"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_072",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_072"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_073",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_073"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_074",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_074"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_075",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_075"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_076",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_076"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_077",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_077"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_078",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_078"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_079",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_079"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_080",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_080"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_081",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_081"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_082",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_082"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_083",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_083"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_084",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_084"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_085",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_085"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_086",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_086"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_087",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_087"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_088",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_088"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_089",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_089"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_090",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_090"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_091",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_091"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_092",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_092"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_093",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_093"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_094",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_094"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_095",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_095"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_096",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_096"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_097",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_097"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_098",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_098"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_099",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_099"
+    }, {
+      "name" : "OPTYCON_ATTR_CHAR_100",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Dim Contacts.OPTYCON_ATTR_CHAR_100"
+    } ]
+  }
+}

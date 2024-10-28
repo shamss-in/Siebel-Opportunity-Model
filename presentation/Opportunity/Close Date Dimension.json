@@ -1,0 +1,38 @@
+{
+  "presentationTable" : {
+    "name" : "Close Date Dimension",
+    "presentationColumns" : [ {
+      "name" : "TIME_ID",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Close Date Dimension.TIME_ID"
+    }, {
+      "name" : "FULL_DATE",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Close Date Dimension.FULL_DATE"
+    }, {
+      "name" : "QUARTER",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Close Date Dimension.QUARTER"
+    }, {
+      "name" : "YEAR",
+      "sourceLogicalColumn" : "logicalColumn:Siebel.Close Date Dimension.YEAR"
+    } ],
+    "hierarchies" : [ {
+      "name" : "H1",
+      "sourceLogicalTable" : "logicalTable:Siebel.Close Date Dimension",
+      "levels" : [ {
+        "name" : "Total",
+        "sourceLogicalLevel" : "logicalLevel:Siebel.Close Date Dimension.Total"
+      }, {
+        "name" : "Year",
+        "sourceLogicalLevel" : "logicalLevel:Siebel.Close Date Dimension.Year",
+        "displayColumn" : "presentationColumn:Opportunity.Close Date Dimension.YEAR"
+      }, {
+        "name" : "Quarter",
+        "sourceLogicalLevel" : "logicalLevel:Siebel.Close Date Dimension.Quarter",
+        "displayColumn" : "presentationColumn:Opportunity.Close Date Dimension.QUARTER"
+      }, {
+        "name" : "Detail",
+        "sourceLogicalLevel" : "logicalLevel:Siebel.Close Date Dimension.Detail",
+        "displayColumn" : "presentationColumn:Opportunity.Close Date Dimension.FULL_DATE"
+      } ]
+    } ]
+  }
+}

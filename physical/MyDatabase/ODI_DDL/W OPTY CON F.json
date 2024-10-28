@@ -1,0 +1,7 @@
+{
+  "physicalTable" : {
+    "name" : "W OPTY CON F",
+    "sourceTable" : "physicalTable:MyDatabase.ODI_DDL.W_OPTY_CON_F",
+    "overrideSourceCacheSetting" : false
+  }
+}

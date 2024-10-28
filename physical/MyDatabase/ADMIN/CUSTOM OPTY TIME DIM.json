@@ -1,0 +1,7 @@
+{
+  "physicalTable" : {
+    "name" : "CUSTOM OPTY TIME DIM",
+    "sourceTable" : "physicalTable:MyDatabase.ADMIN.CUSTOM_OPTY_TIME_DIM",
+    "overrideSourceCacheSetting" : false
+  }
+}

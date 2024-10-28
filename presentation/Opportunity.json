@@ -1,0 +1,13 @@
+{
+  "subjectArea" : {
+    "name" : "Opportunity",
+    "sourceBusinessModel" : "businessModel:Siebel",
+    "tableOrder" : [ {
+      "name" : "presentationTable:Opportunity.Dim Contacts"
+    }, {
+      "name" : "presentationTable:Opportunity.Fact Opportunity"
+    }, {
+      "name" : "presentationTable:Opportunity.Close Date Dimension"
+    } ]
+  }
+}
